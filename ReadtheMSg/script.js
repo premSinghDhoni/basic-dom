@@ -6,6 +6,6 @@ form.addEventListener("submit", (e) => {
   message = msg.value;
   console.log(message);
   let p = e.target.parentNode.children[2];
-p.textContent+=` ${ message}`;
+p.textContent=` ${ message}`;
 msg.value=''
 });

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+body{
+  display: grid;
+  background-color: #FFE8C8;
+
+}
+.cont{
+  background-color: #FFA62F;
+  margin: auto;
+  min-width: 300px;
+  width: 70%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+}
+h2{
+  font-size: 2rem;
+}
+h1{
+  font-size: 5rem;
+}
+button{
+  padding: 1rem;
+}
