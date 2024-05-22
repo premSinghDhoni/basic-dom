@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+button{
+  padding: 1rem;
+  border: none;
+  background-color:#850F8D ;
+  color: #ffffff;
+  border-radius: .5rem;
+}

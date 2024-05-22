@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+  margin: auto;
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+  gap:2rem;
+}
+button{
+  padding: 1rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color:#003285 ;
+  color: white;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+h1{
+ text-align: center;
+ animation-name: color;
+ animation-duration: 10s;
+ animation-iteration-count: infinite;
+ animation-timing-function: linear;
+ animation-direction: alternate;
+}
+
+@keyframes color {
+  0% {
+    color: red;
+  }
+  20% {
+    color: blue;
+  }
+  40% {
+    color: pink;
+  }
+  60% {
+    color: purple;
+  }
+  80% {
+    color: orange;
+  }
+  100% {
+    color: green;
+  }
+}
